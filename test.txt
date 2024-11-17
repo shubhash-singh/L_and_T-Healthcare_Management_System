@@ -1,0 +1,127 @@
+Welcome to Healthcare Management System
+1. Login
+2. Signup
+3. Exit
+Enter your choice: 2
+
+Signup
+Signup as (doctor/patient): doctor
+Enter a unique username: doc_Ragnar
+Enter your specialization: eye
+Doctor signup successful.
+
+Welcome to Healthcare Management System
+1. Login
+2. Signup
+3. Exit
+Enter your choice: 1
+
+Login
+Login as (doctor/patient): doctor
+Enter username: doc_Ragnar
+
+Doctor Dashboard - doc_Ragnar
+1. Add Patient Details
+2. View All Patients
+3. Logout
+Enter your choice: 2
+
+List of Patients:
+
+Doctor Dashboard - doc_Ragnar
+1. Add Patient Details
+2. View All Patients
+3. Logout
+Enter your choice: 1
+Enter patient's username: pat_Ragnar
+Patient not found.
+
+Doctor Dashboard - doc_Ragnar
+1. Add Patient Details
+2. View All Patients
+3. Logout
+Enter your choice: 1
+Enter patient's username: pat_Ragnar
+Patient not found.
+
+Doctor Dashboard - doc_Ragnar
+1. Add Patient Details
+2. View All Patients
+3. Logout
+Enter your choice: 3
+Logging out...
+
+Welcome to Healthcare Management System
+1. Login
+2. Signup
+3. Exit
+Enter your choice: 2
+
+Signup
+Signup as (doctor/patient): patients
+Enter a unique username: pat_Ragnar
+Invalid role. Try again.
+
+Welcome to Healthcare Management System
+1. Login
+2. Signup
+3. Exit
+Enter your choice: 2
+
+Signup
+Signup as (doctor/patient): patient
+Enter a unique username: pat_Ragnar
+Enter your name: Shubhash Singh
+Enter your age: 21
+Enter your gender: Male
+Enter your medical history: Mental DIsorder
+Patient signup successful.
+
+Welcome to Healthcare Management System
+1. Login
+2. Signup
+3. Exit
+Enter your choice: 1
+
+Login
+Login as (doctor/patient): doctor
+Enter username: doc_Ragnar
+
+Doctor Dashboard - doc_Ragnar
+1. Add Patient Details
+2. View All Patients
+3. Logout
+Enter your choice: 2
+
+List of Patients:
+
+Doctor Dashboard - doc_Ragnar
+1. Add Patient Details
+2. View All Patients
+3. Logout
+Enter your choice: 1
+Enter patient's username: pat_Ragnar
+Patient successfully added to doctor's list.
+
+Doctor Dashboard - doc_Ragnar
+1. Add Patient Details
+2. View All Patients
+3. Logout
+Enter your choice: 2
+
+List of Patients:
+- Name: Shubhash Singh, Age: 21, Gender: Male, Appointments: []
+
+Doctor Dashboard - doc_Ragnar
+1. Add Patient Details
+2. View All Patients
+3. Logout
+Enter your choice: 3
+Logging out...
+
+Welcome to Healthcare Management System
+1. Login
+2. Signup
+3. Exit
+Enter your choice: 3
+Exiting...
