@@ -4,16 +4,19 @@ from patient_dashboard import patient_dashboard
 
 def login():
     print("\nLogin")
-    role = input("Login as (doctor/patient): ").strip().lower()
-    username = input("Enter username: ").strip()
-
-    if role == "doctor":
+    role = input("Login as (doctor[doc]/patient[pat]): ").strip().lower()
+    
+    if role == "doctor" or role == "doc":
+        username = input("Enter username: ").strip()
+        
         doctor = find_record("doctors", {"username": username})
         if doctor:
             doctor_dashboard(doctor)
         else:
             print("Doctor not found. Please signup.")
-    elif role == "patient":
+    elif role == "patient" or role == "pat":
+        username = input("Enter username: ").strip()
+        
         patient = find_record("patients", {"username": username})
         if patient:
             patient_dashboard(patient)
