@@ -1,14 +1,30 @@
+
 Welcome to Healthcare Management System
 1. Login
 2. Signup
 3. Exit
 Enter your choice: 2
 
-Signup
-Signup as (doctor/patient): doctor
-Enter a unique username: doc_Ragnar
-Enter your specialization: eye
+*****Signup*****
+Login as (doctor[doc]/patient[pat]): doc
+Enter a unique username: doc_John
+Enter your specialization: Cardiologist
 Doctor signup successful.
+
+Welcome to Healthcare Management System
+1. Login
+2. Signup
+3. Exit
+Enter your choice: 2      
+
+*****Signup*****
+Login as (doctor[doc]/patient[pat]): patient
+Enter a unique username: jane doe
+Enter your name: Jane Doe
+Enter your age: 21
+Enter your gender: Female
+Enter your medical history: Hypertension
+Patient signup successful.
 
 Welcome to Healthcare Management System
 1. Login
@@ -16,11 +32,11 @@ Welcome to Healthcare Management System
 3. Exit
 Enter your choice: 1
 
-Login
-Login as (doctor/patient): doctor
-Enter username: doc_Ragnar
+*****Login*****
+Login as (doctor[doc]/patient[pat]): doc
+Enter username: doc_John
 
-Doctor Dashboard - doc_Ragnar
+Doctor Dashboard - doc_John
 1. Add Patient Details
 2. View All Patients
 3. Logout
@@ -28,23 +44,24 @@ Enter your choice: 2
 
 List of Patients:
 
-Doctor Dashboard - doc_Ragnar
+Doctor Dashboard - doc_John
 1. Add Patient Details
 2. View All Patients
 3. Logout
 Enter your choice: 1
-Enter patient's username: pat_Ragnar
-Patient not found.
+Enter patient's username: jane doe
+Patient successfully added to doctor's list.
 
-Doctor Dashboard - doc_Ragnar
+Doctor Dashboard - doc_John
 1. Add Patient Details
 2. View All Patients
 3. Logout
-Enter your choice: 1
-Enter patient's username: pat_Ragnar
-Patient not found.
+Enter your choice: 2
 
-Doctor Dashboard - doc_Ragnar
+List of Patients:
+- Name: Jane Doe, Age: 21, Gender: Female, Appointments: []
+
+Doctor Dashboard - doc_John
 1. Add Patient Details
 2. View All Patients
 3. Logout
@@ -55,66 +72,40 @@ Welcome to Healthcare Management System
 1. Login
 2. Signup
 3. Exit
-Enter your choice: 2
-
-Signup
-Signup as (doctor/patient): patients
-Enter a unique username: pat_Ragnar
-Invalid role. Try again.
-
-Welcome to Healthcare Management System
-1. Login
-2. Signup
-3. Exit
-Enter your choice: 2
-
-Signup
-Signup as (doctor/patient): patient
-Enter a unique username: pat_Ragnar
-Enter your name: Shubhash Singh
-Enter your age: 21
-Enter your gender: Male
-Enter your medical history: Mental DIsorder
-Patient signup successful.
-
-Welcome to Healthcare Management System
-1. Login
-2. Signup
-3. Exit
 Enter your choice: 1
 
-Login
-Login as (doctor/patient): doctor
-Enter username: doc_Ragnar
+*****Login*****
+Login as (doctor[doc]/patient[pat]): pat
+Enter username: jane doe
 
-Doctor Dashboard - doc_Ragnar
-1. Add Patient Details
-2. View All Patients
+Patient Dashboard - jane doe
+1. View My Details
+2. Book Appointment
 3. Logout
 Enter your choice: 2
+Available Doctors:
+1. doc_Ragnar (Specialization: eye)
+2. doc_Doctor (Specialization: Heart)
+3. doc_John (Specialization: Cardiologist)
+Select a doctor by number: 3
+Appointment booked successfully.
 
-List of Patients:
-
-Doctor Dashboard - doc_Ragnar
-1. Add Patient Details
-2. View All Patients
+Patient Dashboard - jane doe
+1. View My Details
+2. Book Appointment
 3. Logout
 Enter your choice: 1
-Enter patient's username: pat_Ragnar
-Patient successfully added to doctor's list.
 
-Doctor Dashboard - doc_Ragnar
-1. Add Patient Details
-2. View All Patients
-3. Logout
-Enter your choice: 2
+My Details:
+Name: Jane Doe
+Age: 21
+Gender: Female
+Medical History: Hypertension
+Appointments: [{'doctor_username': 'doc_John', 'doctor_specialization': 'Cardiologist'}]
 
-List of Patients:
-- Name: Shubhash Singh, Age: 21, Gender: Male, Appointments: []
-
-Doctor Dashboard - doc_Ragnar
-1. Add Patient Details
-2. View All Patients
+Patient Dashboard - jane doe
+1. View My Details
+2. Book Appointment
 3. Logout
 Enter your choice: 3
 Logging out...
